@@ -1,16 +1,16 @@
 ---
 title: Contact
-heading: Get your free Simple Church Planner
-description: Simply enter your name and email and instructions will be on the way.
+heading: Contact Ryan Hayden at Simple Church Tools
+description: Simply enter your information below and I'll get back to you as soon as possible. <br> Alternatively you can call me at <strong>(217) 499-0822</strong> or email me at <strong>pastorryanhayden@gmail.com</strong>.
 
 ---
 
 
 
 <div class="contact-box">
-<form action="{{ site.baseurl }}/signup-success/" method="post" class="contact-form">
+<form action="{{ site.baseurl }}/contact-success/" method="post" class="contact-form">
 		<input type="hidden" name="_to" value="pastorryanhayden@gmail.com" />
-		<input type="hidden" name="_subject" value="Simple Church Planner - Get Planner" />
+		<input type="hidden" name="_subject" value="Simple Church Tools Reach Out" />
 		<input type="text" name="_gotcha" style="display: none;">
 
 		<label for="name">Your Name</label>
@@ -19,10 +19,15 @@ description: Simply enter your name and email and instructions will be on the wa
 		<label for="name">Your Church's Name</label>
 		<input type="text" name="church_name" id="church_name" placeholder="Enter the name of your church..." />
 
+		<label for="name">Your Phone Number</label>
+		<input type="tel" name="phone" id="phone" placeholder="Enter your phone number..." />
+
 		<label for="email">Your Email Address</label>
 		<input type="email" name="email" id="email" placeholder="Enter your email..." required />
+		<br>
+		<textarea name="message" id="message" placeholder="Enter your message..."></textarea>
 
-		<input type="submit" value="Get Your Free Tool" />
+		<input type="submit" value="Send Message" />
 	</form>
 </div>
 
