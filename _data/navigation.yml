@@ -1,8 +1,12 @@
-- name: FAQ
-  link: /faq/
+- name: About
+  link: /about/
   new_window: false
   highlight: false
-- name: Sign Up
-  link: /signup/
+- name: Blog
+  link: /blog/
+  new_window: false
+  highlight: false
+- name: Contact Us
+  link: /contact/
   new_window: false
   highlight: true
