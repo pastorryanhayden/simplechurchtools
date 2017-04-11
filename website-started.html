@@ -1,0 +1,31 @@
+---
+title: Contact Ryan Hayden
+heading: Let's get your church an awesome new website
+description: Send me your name, email and phone number and I'll contact you as soon as I can. <br> <em>(Or you can reach out to me at (217) 499-0822 or pastorryanhayden@gmail.com.)</em>
+
+---
+
+
+
+<div class="contact-box">
+<form action="{{ site.baseurl }}/signup-success/" method="post" class="contact-form">
+		<input type="hidden" name="_to" value="pastorryanhayden@gmail.com" />
+		<input type="hidden" name="_subject" value="Simple Church Planner - Website Reach Out" />
+		<input type="text" name="_gotcha" style="display: none;">
+		
+		<label for="name">Your Name</label>
+		<input type="text" name="name" id="name" placeholder="Enter your name..." />
+
+		<label for="name">Your Church's Name</label>
+		<input type="text" name="church_name" id="church_name" placeholder="Enter the name of your church..." />
+
+		<label for="email">Your Email Address</label>
+		<input type="email" name="email" id="email" placeholder="Enter your email..." required />
+
+		<label for="email">Your Phone Number</label>
+		<input type="tel" name="phone" id="phone" placeholder="Enter your phone number..." required />
+
+		<input type="submit" value="Send It" />
+	</form>
+</div>
+

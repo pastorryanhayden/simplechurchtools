@@ -1,0 +1,31 @@
+---
+title: Pricing
+heading: Frequently Asked Questions
+description: Everything you need to know about the simple church planner.
+faq:
+  - question: Who is making this?
+    answer: My name is <a href="http://ryanhaydenwebsites.com">Ryan Hayden</a>, I'm a pastor who makes extra money making websites and custom programs for pastors.
+  - question: Is it really free?
+    answer: Yep. All I ask for is an email address so I can send you occasional information about church websites and other tools.
+  - question: How will I get it?
+    answer: When you click the <a href="{{site.url}}/signup/index.html">signup button</a>, you'll have to enter your name and email, then I'll send setup information to your email.
+  - question: What are the tech requirements?
+    answer: The program is actually two parts, an <a href="https://airtable.com/invite/r/MW9nJ7HK">Airtable</a> base (which will run in any modern browser and in iOS and Android apps) and a custom HTML file (for printing) which will work best in Google Chrome.
+  - question: Questions?
+    answer: Contact us for any further questions at <a href="mailto:pastorryanhayden@gmail.com">pastorryanhayden@gmail.com</a>.
+  - question: What if I need it customized or I want some other feature?
+    answer: The standard configuration will work for a lot of churches, but <strong>if you want something different I can tweak it for an hourly fee of $50 with a one hour minumum</strong>..
+---
+
+{% if page.faq %}
+  <dl class="faq">
+    {% for item in page.faq %}
+      <div>
+        <dt>{{ item.question }}</dt>
+        <dd>{{ item.answer }}</dd>
+      </div>
+    {% endfor %}
+  </dl>
+{% endif %}
+
+

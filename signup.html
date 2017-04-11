@@ -1,0 +1,28 @@
+---
+title: Contact
+heading: Get your free Simple Church Planner
+description: Simply enter your name and email and instructions will be on the way.
+
+---
+
+
+
+<div class="contact-box">
+<form action="{{ site.baseurl }}/signup-success/" method="post" class="contact-form">
+		<input type="hidden" name="_to" value="pastorryanhayden@gmail.com" />
+		<input type="hidden" name="_subject" value="Simple Church Planner - Get Planner" />
+		<input type="text" name="_gotcha" style="display: none;">
+
+		<label for="name">Your Name</label>
+		<input type="text" name="name" id="name" placeholder="Enter your name..." />
+
+		<label for="name">Your Church's Name</label>
+		<input type="text" name="church_name" id="church_name" placeholder="Enter the name of your church..." />
+
+		<label for="email">Your Email Address</label>
+		<input type="email" name="email" id="email" placeholder="Enter your email..." required />
+
+		<input type="submit" value="Get Your Free Tool" />
+	</form>
+</div>
+

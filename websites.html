@@ -1,0 +1,129 @@
+---
+title: It's On The Way
+features:
+  - feature: Designed to turn website visitors into church guests
+    details: Everything about my themes and designs is intended to get people to visit your church.  Your site won't be just a blog or a business website with a church page tagged on - it will designed from from the ground up to get people in your church.
+  - feature: Unbelieveably easy sermon management
+    details: My themes use Airtable for sermon management, your sound guy will love you and you'll get more of your sermons online.
+  - feature: Google Calendar Integration and Special Event Pages
+    details: Use a Google Calendar to manage your church's public facing calendar, but also have the option of creating awesome event pages for special events.
+  - feature: Ministry pages
+    details: My sites have pages specifically designed to be a home base for your ministries (i.e. youth groups, care ministries, etc.) complete with ministry calendars and photo galleries.
+  - feature: Everything else a church website needs
+    details: Special page templates for church leadership, statement of faith, pastor's blog, and more.
+  - feature: Unhackable and Easy To Update
+    details: Unlike 99% of church websites, the sites I make aren't on Wordpress and were designed to load fast and be super secure.
+pricing_table:
+  - name: Month To Month
+    color: "#3877E0"
+    features:
+      - text: $200 Setup Fee
+        highlight: true
+      - text: $20 Per Month
+        highlight: True
+      - text: Free Domain Name
+        highlight: false
+      - text: Hosting Included
+        highlight: false
+    call_to_action:
+      link: /website-started/
+      text: Get started
+  - name: Better Value
+    color: "#E12844"
+    features:
+      - text: $700 Up Front
+        highlight: true
+      - text: $0 Per Month
+        highlight: True
+      - text: Everything covered for 3 years
+        highlight: false
+      - text: Domain & Hosting
+        highlight: false
+    call_to_action:
+      link: /website-started/
+      text: Get started
+  
+---
+
+
+<p class="subtext">The email with instructions should land in your inbox within fifteen minutes.</p>
+<hr style="margin-bottom: 30px; margin-top: 30px;"">
+<h2 style="margin-bottom: 0;">By the way...does your church needs a new website?</h2>
+<img src="http://d1qmdf3vop2l07.cloudfront.net/rose-lime1.cloudvent.net/compressed/6bef7c29be144717d9726a311a3b637c.png" alt="" width="300px" style="display: block; margin-right: auto; margin-left: auto; width: 60%;">
+<div style="text-align: center;">
+<div class="cta button"><a href="/website-started/">Get Started</a></div>
+</div>
+<p class="subtext">I've worked for years on creating the best website solution for small churches.  Here are some of the features:</p>
+{% if page.features %}
+  <dl class="faq">
+    {% for item in page.features %}
+      <div>
+        <dt>{{ item.feature }}</dt>
+        <dd>{{ item.details }}</dd>
+      </div>
+    {% endfor %}
+  </dl>
+{% endif %}
+
+<hr style="margin-bottom: 40px;">
+<h2>Three Great Themes</h2>
+<p class="subtext">I've designed each of these themes from scratch to be awesome for churches and <strong>I can customize them however you like</strong> as part of the setup process.</p>
+
+  <section style="padding-top: 50px;">
+    <div class="container flex">
+      <div class="text editable">
+        <h2><strong>Colorado</strong></h2>
+        <p>This theme is fantastic for smaller churches and church plants. It hides any time related content (blog posts, sermons, etc.) on the home page and only shows them when they are fresh or relevant.</p>
+      </div>
+      <div class="image">
+        <img src="/images/colorado.png" alt="Screenshot" class="screenshot editable" />
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container flex">
+      <div class="text editable">
+        <h2><strong>California</strong></h2>
+        <p>This theme is desinged to put the church life of a lively church on display for potential visitors.  It includes a current sermon series widget and featured ministries on the home page.</p>
+      </div>
+      <div class="image">
+        <img src="/images/california.png" alt="Screenshot" class="screenshot editable" />
+      </div>
+    </div>
+  </section>
+  <section style="padding-bottom: 50px;">
+    <div class="container flex">
+      <div class="text editable">
+        <h2><strong>New England</strong></h2>
+        <p>This theme is an all around work horse that works great with a very traditional church.  It features latest blog posts, sermons and upcoming events on the home page.</p>
+      </div>
+      <div class="image">
+        <img src="/images/new-england.png" alt="Screenshot" class="screenshot editable" />
+      </div>
+    </div>
+  </section>
+  <div style="text-align: center;">
+<div class="cta button"><a href="/website-started/">Get Started</a></div>
+</div>
+  <hr style="margin-bottom: 50px;">
+ <h2>Super easy.  Super Affordable</h2>
+<p class="subtext">Check out my prices below. Designed to be affordable for small churches.</p>
+<div class="plans">
+	{% for plan in page.pricing_table %}
+		<ul class="plan">
+			<li style="background: {{ plan.color }}">
+				<h3>{{ plan.name }}</h3>
+			</li>
+			{% for feature in plan.features %}
+				<li {% if feature.highlight %} class="highlighted"{% endif %}>{{ feature.text }}</li>
+			{% endfor %}
+
+			{% if plan.call_to_action %}
+				<li class="pricing-cta"><div class="button"><a style="background: {{ plan.color }}" href="{{ plan.call_to_action.link }}">{{ plan.call_to_action.text }} &rarr;</a></div></li>
+			{% endif %}
+		</ul>
+	{% endfor %}
+</div>
+
+
+
