@@ -1,6 +1,7 @@
 .hero .tools {
 	display: flex;
 	justify-content: space-between;
+	margin-top: 80px;
 
 	a {
 		color: #ffffff;
@@ -9,8 +10,29 @@
 		&.coming-soon {
 			color: #E3E3E3;
 		}
+		img {
+			width: 60px;
+			margin-bottom: 10px;
+		}
 		span {
 			text-transform: uppercase;
 		}
+	}
+}
+.bottom-cta {
+	h2 strong {
+		text-transform: uppercase;
+	}
+	.box {
+		display: flex;
+		justify-content: space-between;
+		max-width: 600px;
+		flex-wrap: wrap;
+		align-items: center;
+		margin-left: auto;
+		margin-right: auto;
+	img {
+		width: 300px;
+	}
 	}
 }
