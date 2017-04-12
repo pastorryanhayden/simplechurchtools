@@ -5,7 +5,7 @@ description: Who we are, How we came to be, Our Philosophy
 
 ### Who We Are
 
-We is me - Ryan Hayden.  I'm the pastor at Bible Baptist Church in Mattoon, IL and I've been making websites since 2004.  I'm faily unique, because I love programming and developement and I also love being a pastor.  The church I pastor isn't huge - it's one of the 80% of American churches with less than 100 regular attenders, so I know the struggles most churches face when it comes to volunteers and trying to maintain excellence.
+We is me - Ryan Hayden.  I'm the pastor at Bible Baptist Church in Mattoon, IL and I've been making websites since 2004.  I'm fairly unique, because I love programming and developement and I also love being a pastor.  The church I pastor isn't huge - it's one of the 80% of American churches with less than 100 regular attenders, so I know the struggles most churches face when it comes to volunteers and trying to maintain excellence.
 
 ### How We Came To Be
 
