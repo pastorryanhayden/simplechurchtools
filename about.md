@@ -20,7 +20,5 @@ Two things brought me back:
 
 I believe in simple tools that can help simple traditional churches.  I am not interested in making tools for churches that are super modern and have a large staff of tech guys.  (Although I wish them well.)  There are tools that do every one of the things my tools do and do them better - they are often just too complicated and expensive for simple churches.  **I hope you outgrow my tools.** When you do I know some great guys at other companies who can help you and I'd be happy to recomend them.
 
-### Giving
 
-50% of the sales from Simple Church Tools goes to fund missions trips and missions projects.  Right now I'm saving to help Camp Rhino in Port Elizabeth, South Africa. 
 
