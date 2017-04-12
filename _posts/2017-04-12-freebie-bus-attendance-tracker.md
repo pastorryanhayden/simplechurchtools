@@ -3,11 +3,12 @@ title: 'FREEBIE: Bus Attendance Tracker'
 categories:
   - Airtable
   - Bus Ministry
-author_staff_member:
+author_staff_member: ryan-hayden
 date: 2017-04-12 15:00:00
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vbSDMekMpXI" frameborder="0" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vbSDMekMpXI" frameborder="0" allowfullscreen=""></iframe>
 
 This morning, someone who signed up for [Simple Church Planner](http://simplechurchplanner.com) asked about using Airtable to track church bus attendance.  I made a quick base for him and thought I'd share it with everyone.
 
